@@ -13,7 +13,6 @@
 ## 👋 About me
 
 - 📍 Full-stack AI engineer based in **South Korea**
-- 🗣️ Speaks **Korean**, **English** and **Uzbek**
 - 🚀 Shipped **2 live products**: a used-car marketplace and a car-detailing online shop
 - 🛠️ Building end to end: GraphQL API, database, web and mobile frontend, Docker deploy
 - 🤖 Building **AI apps** on my own GPU: LLM fine-tuning, computer vision, forecasting
@@ -32,9 +31,6 @@
 + Mood Cafe: smile-for-a-discount kiosk, 90.8%
 + Smart Food: meal photo -> A-E health grade
 + Weather Daegu: NumPy forecasts, heatwaves x3.4
-
-! Clean code · honest metrics · real products
-# Open to junior roles and collaboration
 ```
 
 ## 🧰 Languages and tools
@@ -156,23 +152,6 @@
 | [Wooa Carwash](https://github.com/sanchezSanjar/wooa-carwash) | Car wash booking platform with a mobile app | NestJS · MongoDB · React Native (Expo) |
 | [computer_vision](https://github.com/sanchezSanjar/computer_vision) | OpenCV, PyTorch and a food menu classifier (MobileNetV2, 89.5%) | OpenCV · PyTorch |
 | [zoo](https://github.com/sanchezSanjar/zoo) | REST API server | NestJS |
-
-<details>
-<summary><b>Learning projects</b> (courses and practice)</summary>
-
-<br/>
-
-- **Nestar**: real-estate platform with NestJS GraphQL API, batch service and Next.js web app *(private)*
-- **Burak**: restaurant ordering app with React, Redux Toolkit and Socket.io *(private)*
-- **[reja](https://github.com/sanchezSanjar/reja)**: first Express CRUD project
-- **[nestar-demo](https://github.com/sanchezSanjar/nestar-demo)**, **[Practice](https://github.com/sanchezSanjar/Practice)**: Next.js, Git and Python foundations
-</details>
-
-## GitHub activity
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=sanchezSanjar&theme=tokyonight&hide_border=true&background=0D1117&ring=3A86C8&fire=F4A259&currStreakLabel=3A86C8" alt="GitHub streak" />
-</p>
 
 <p align="center">
   <picture>
