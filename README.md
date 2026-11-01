@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1d4e89,100:3a86c8&height=190&section=header&text=Sanjar%20(Sanchez)&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Full-stack%20and%20AI%20developer%20%C2%B7%20South%20Korea&descSize=18&descAlignY=58" width="100%" alt="Sanjar (Sanchez), full-stack and AI developer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1d4e89,100:3a86c8&height=190&section=header&text=Sanjar%20(Sanchez)&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Full-stack%20AI%20Engineer%20%C2%B7%20South%20Korea&descSize=18&descAlignY=58" width="100%" alt="Sanjar (Sanchez), full-stack AI engineer" />
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=3A86C8&center=true&vCenter=true&width=640&lines=Full-stack+developer+%C2%B7+NestJS+%C2%B7+GraphQL+%C2%B7+Next.js;2+live+products%3A+carzip.kr+and+detailstock.kr;Building+AI+apps+with+PyTorch%2C+OpenCV+and+pandas;Fine-tuning+LLMs+and+training+models+on+my+own+GPU" alt="Typing animation" />
@@ -12,7 +12,8 @@
 
 ## 👋 About me
 
-- 📍 Full-stack developer based in **South Korea**
+- 📍 Full-stack AI engineer based in **South Korea**
+- 🗣️ Speaks **Korean**, **English** and **Uzbek**
 - 🚀 Shipped **2 live products**: a used-car marketplace and a car-detailing online shop
 - 🛠️ Building end to end: GraphQL API, database, web and mobile frontend, Docker deploy
 - 🤖 Building **AI apps** on my own GPU: LLM fine-tuning, computer vision, forecasting
@@ -39,22 +40,53 @@
 ## 🧰 Languages and tools
 
 **🎨 Frontend**<br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,redux,materialui,sass,vite,html,css&theme=dark" alt="React, Next.js, Redux, MUI, Sass, Vite, HTML, CSS" />
-<img src="https://img.shields.io/badge/React%20Native-Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="React Native Expo" align="top" />
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,materialui,sass,css,html,vite&theme=dark" alt="TypeScript, JavaScript, React, Next.js, Redux, MUI, Sass, CSS, HTML, Vite" /><br/>
+<img src="https://img.shields.io/badge/React%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="React Query" />
+<img src="https://img.shields.io/badge/Apollo%20Client-311C87?style=flat-square&logo=apollographql&logoColor=white" alt="Apollo Client" />
+<img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white" alt="Axios" />
+<img src="https://img.shields.io/badge/EJS-B4CA65?style=flat-square&logo=ejs&logoColor=black" alt="EJS" />
+<img src="https://img.shields.io/badge/React%20Native-Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="React Native Expo" />
+<img src="https://img.shields.io/badge/Mapbox-000000?style=flat-square&logo=mapbox&logoColor=white" alt="Mapbox" />
 
 **⚙️ Backend**<br/>
-<img src="https://skillicons.dev/icons?i=ts,js,nodejs,nestjs,express,graphql&theme=dark" alt="TypeScript, JavaScript, Node.js, NestJS, Express, GraphQL" />
-<img src="https://img.shields.io/badge/Socket.io-realtime-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.io" align="top" />
+<img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,py,fastapi,graphql,mongodb&theme=dark" alt="Node.js, NestJS, Express, Python, FastAPI, GraphQL, MongoDB" /><br/>
+<img src="https://img.shields.io/badge/Mongoose-880000?style=flat-square&logo=mongoose&logoColor=white" alt="Mongoose" />
+<img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.IO" />
+<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+<img src="https://img.shields.io/badge/REST%20APIs-0A66C2?style=flat-square&logo=openapiinitiative&logoColor=white" alt="REST APIs" />
+<img src="https://img.shields.io/badge/Microservices-2E7D32?style=flat-square&logo=serverfault&logoColor=white" alt="Microservices" />
+<img src="https://img.shields.io/badge/Multer-uploads-555555?style=flat-square" alt="Multer" />
 
-**🗄️ Database and DevOps**<br/>
-<img src="https://skillicons.dev/icons?i=mongodb,docker,nginx,linux,git,github&theme=dark" alt="MongoDB, Docker, Nginx, Linux, Git, GitHub" />
+**☁️ DevOps and cloud**<br/>
+<img src="https://skillicons.dev/icons?i=linux,ubuntu,docker,nginx,aws,vercel,githubactions,git,github&theme=dark" alt="Linux, Ubuntu, Docker, Nginx, AWS, Vercel, GitHub Actions, Git, GitHub" /><br/>
+<img src="https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white" alt="PM2" />
+<img src="https://img.shields.io/badge/AWS-Lightsail-FF9900?style=flat-square" alt="AWS Lightsail" />
+<img src="https://img.shields.io/badge/VPS-deployment-555555?style=flat-square&logo=linux&logoColor=white" alt="VPS deployment" />
+<img src="https://img.shields.io/badge/CI%2FCD-workflows-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="CI/CD" />
+<img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages" />
 
-**🧠 AI and data**<br/>
-<img src="https://skillicons.dev/icons?i=py,pytorch,opencv&theme=dark" alt="Python, PyTorch, OpenCV" />
-<img src="https://img.shields.io/badge/Hugging%20Face-Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" align="top" />
-<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" align="top" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" align="top" />
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" align="top" />
+**🧠 AI and machine learning**<br/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark" alt="PyTorch, TensorFlow, scikit-learn, OpenCV" /><br/>
+<img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" alt="Keras" />
+<img src="https://img.shields.io/badge/Hugging%20Face-Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
+<img src="https://img.shields.io/badge/Llama-Meta%20AI-0467DF?style=flat-square&logo=meta&logoColor=white" alt="Llama" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+<img src="https://img.shields.io/badge/OpenAI-API-412991?style=flat-square" alt="OpenAI API" />
+<img src="https://img.shields.io/badge/LoRA-fine--tuning-6A1B9A?style=flat-square" alt="LoRA fine-tuning" />
+<img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white" alt="Google Colab" />
+
+**📊 Data**<br/>
+<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=plotly&logoColor=white" alt="Matplotlib" />
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
+
+**🤖 Agentic AI integration**<br/>
+<img src="https://img.shields.io/badge/LLM%20API%20integration-412991?style=flat-square" alt="LLM API integration" />
+<img src="https://img.shields.io/badge/Agentic%20workflows-1C3C3C?style=flat-square" alt="Agentic workflows" />
+<img src="https://img.shields.io/badge/Prompt%20engineering-6A1B9A?style=flat-square" alt="Prompt engineering" />
+<img src="https://img.shields.io/badge/Streaming%20AI%20UI-0A66C2?style=flat-square" alt="Streaming AI UI" />
+<img src="https://img.shields.io/badge/Real--time%20AI%20pipelines-2E7D32?style=flat-square" alt="Real-time AI pipelines" />
 
 ## Live products
 
@@ -147,12 +179,6 @@
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sanchezSanjar/sanchezSanjar/output/github-contribution-grid-snake-dark.svg" />
     <img src="https://raw.githubusercontent.com/sanchezSanjar/sanchezSanjar/output/github-contribution-grid-snake.svg" alt="Contribution snake" width="100%" />
   </picture>
-</p>
-
-## Contact
-
-<p align="center">
-  <a href="https://github.com/sanchezSanjar"><img src="https://img.shields.io/badge/GitHub-sanchezSanjar-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a86c8,100:1d4e89&height=110&section=footer" width="100%" alt="" />
