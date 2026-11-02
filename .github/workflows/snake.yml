@@ -1,19 +1,20 @@
-name: Contribution snake
+name: Profile images
 
 on:
   schedule:
     - cron: "0 0 * * *"   # every day
   workflow_dispatch:
   push:
-    branches: [master]
+    branches: [master, develop]
 
 permissions:
   contents: write
 
 jobs:
-  snake:
+  images:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -22,11 +23,16 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      # Stats and top-languages cards, drawn here because the public card service is often down.
+      - name: Stats cards
+        run: python3 .github/scripts/stats_cards.py ${{ github.repository_owner }} dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # Published to the separate "output" branch, so the main branch history stays yours only.
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
-          commit_message: "chore: update contribution snake"
+          commit_message: "chore: update profile images"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
