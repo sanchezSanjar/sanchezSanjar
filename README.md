@@ -176,6 +176,11 @@
 ## 📈 GitHub activity
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/sanchezSanjar/sanchezSanjar/output/github-stats.svg" height="190" alt="GitHub stats" />
+  <img src="https://raw.githubusercontent.com/sanchezSanjar/sanchezSanjar/output/top-languages.svg" height="190" alt="Top languages" />
+</p>
+
+<p align="center">
   <img src="https://streak-stats.demolab.com?user=sanchezSanjar&theme=tokyonight&hide_border=true&background=0D1117&ring=3A86C8&fire=F4A259&currStreakLabel=3A86C8" alt="GitHub streak" />
 </p>
 
