@@ -41,14 +41,16 @@ def contributions(user: str) -> dict | None:
     query = """query($login: String!) { user(login: $login) {
         contributionsCollection { totalCommitContributions contributionCalendar { totalContributions } }
         pullRequests { totalCount } issues { totalCount } } }"""
-    result = get(f"{API}/graphql", {"query": query, "variables": {"login": user}})
-    node = (result.get("data") or {}).get("user")
-    if not node:
+    try:
+        result = get(f"{API}/graphql", {"query": query, "variables": {"login": user}})
+        node = result["data"]["user"]
+        collection = node["contributionsCollection"]
+        return {"contributions": collection["contributionCalendar"]["totalContributions"],
+                "commits": collection["totalCommitContributions"],
+                "prs": node["pullRequests"]["totalCount"], "issues": node["issues"]["totalCount"]}
+    except Exception as error:  # the card then shows stars, repositories and followers only
+        print(f"Contribution numbers not available: {error}", file=sys.stderr)
         return None
-    collection = node["contributionsCollection"]
-    return {"contributions": collection["contributionCalendar"]["totalContributions"],
-            "commits": collection["totalCommitContributions"],
-            "prs": node["pullRequests"]["totalCount"], "issues": node["issues"]["totalCount"]}
 
 
 def collect(user: str) -> dict:

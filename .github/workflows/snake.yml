@@ -15,6 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # Stats and top-languages cards, drawn here because the public card service is often down.
+      # Runs before the snake: the snake runs in Docker as root and would leave dist/ read-only.
+      - name: Stats cards
+        run: python3 .github/scripts/stats_cards.py ${{ github.repository_owner }} dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -23,11 +29,6 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      # Stats and top-languages cards, drawn here because the public card service is often down.
-      - name: Stats cards
-        run: python3 .github/scripts/stats_cards.py ${{ github.repository_owner }} dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # Published to the separate "output" branch, so the main branch history stays yours only.
       - uses: crazy-max/ghaction-github-pages@v4
         with:
