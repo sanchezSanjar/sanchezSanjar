@@ -54,7 +54,8 @@
 <img src="https://img.shields.io/badge/Multer-uploads-555555?style=flat-square" alt="Multer" />
 
 **☁️ DevOps and cloud**<br/>
-<img src="https://skillicons.dev/icons?i=linux,ubuntu,bash,docker,kubernetes,nginx,apache,grafana,aws,vercel,githubactions,git,github&theme=dark" alt="Linux, Ubuntu, Bash, Docker, Kubernetes, Nginx, Apache, Grafana, AWS, Vercel, GitHub Actions, Git, GitHub" /><br/>
+<img src="https://skillicons.dev/icons?i=linux,ubuntu,bash,docker,kubernetes,nginx,grafana,aws,vercel,githubactions,git,github&theme=dark" alt="Linux, Ubuntu, Bash, Docker, Kubernetes, Nginx, Grafana, AWS, Vercel, GitHub Actions, Git, GitHub" /><br/>
+<img src="https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=apache&logoColor=white" alt="Apache" />
 <img src="https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white" alt="PM2" />
 <img src="https://img.shields.io/badge/AWS-Lightsail-FF9900?style=flat-square" alt="AWS Lightsail" />
 <img src="https://img.shields.io/badge/VPS-deployment-555555?style=flat-square&logo=linux&logoColor=white" alt="VPS deployment" />
