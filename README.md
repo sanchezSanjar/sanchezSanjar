@@ -1,7 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1d4e89,100:3a86c8&height=190&section=header&text=Sanchez%20(Sanjar)&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Full-stack%20AI%20Engineer%20%C2%B7%20South%20Korea&descSize=18&descAlignY=58" width="100%" alt="Sanchez (Sanjar), full-stack AI engineer" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=3A86C8&center=true&vCenter=true&width=640&lines=Full-stack+developer+%C2%B7+NestJS+%C2%B7+GraphQL+%C2%B7+Next.js;2+live+products%3A+carzip.kr+and+detailstock.kr;Building+AI+apps+with+PyTorch%2C+OpenCV+and+pandas;Fine-tuning+LLMs+and+building+computer+vision+apps" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=3A86C8&center=true&vCenter=true&width=640&lines=Full-stack+developer+%C2%B7+NestJS+%C2%B7+GraphQL+%C2%B7+Next.js;2+live+products%3A+carzip.kr+and+detailstock.kr;Building+AI+apps+with+PyTorch%2C+OpenCV+and+pandas;RAG+and+fine-tuned+LLMs+on+an+RTX+3060+GPU" alt="Typing animation" />
 </p>
 
 <p align="center">
@@ -15,18 +15,20 @@
 - 📍 Full-stack AI engineer based in **South Korea**
 - 🚀 Shipped **2 live products**: a used-car marketplace and a car-detailing online shop
 - 🛠️ Building end to end: GraphQL API, database, web and mobile frontend, Docker deploy
-- 🤖 Building **AI apps**: LLM fine-tuning, computer vision, forecasting
+- 🤖 Building **AI apps**: RAG, LLM fine-tuning, computer vision, forecasting
+- 🖥️ Fine-tuning and running models locally on an **NVIDIA RTX 3060** laptop GPU (6 GB)
 - 📏 Every AI project reports **real, measured results** and its limitations
 
 ```diff
 @@  Right now  @@
 + Running carzip.kr: NestJS · GraphQL · Next.js
 + Running detailstock.kr: Express · React
-+ Building AI apps: LLMs, vision, forecasting
++ Building AI apps: RAG, LLMs, vision
 
 @@  Shipped  @@
 + CarZip: used-car marketplace, 4 languages
 + DetailStock: car-detailing e-commerce
++ K-Visa Law Assistant: RAG with cited answers
 + HealthyLifeStyle ChatBot: own LoRA fine-tune
 + Mood Cafe: smile-for-a-discount kiosk, 90.8%
 + Smart Food: meal photo -> A-E health grade
@@ -54,7 +56,7 @@
 <img src="https://img.shields.io/badge/Multer-uploads-555555?style=flat-square" alt="Multer" />
 
 **☁️ DevOps and cloud**<br/>
-<img src="https://skillicons.dev/icons?i=linux,ubuntu,bash,docker,kubernetes,nginx,grafana,aws,vercel,githubactions,git,github&theme=dark" alt="Linux, Ubuntu, Bash, Docker, Kubernetes, Nginx, Grafana, AWS, Vercel, GitHub Actions, Git, GitHub" /><br/>
+<img src="https://skillicons.dev/icons?i=linux,ubuntu,bash,docker,nginx,grafana,aws,vercel,githubactions,git,github&theme=dark" alt="Linux, Ubuntu, Bash, Docker, Nginx, Grafana, AWS, Vercel, GitHub Actions, Git, GitHub" /><br/>
 <img src="https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=apache&logoColor=white" alt="Apache" />
 <img src="https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white" alt="PM2" />
 <img src="https://img.shields.io/badge/AWS-Lightsail-FF9900?style=flat-square" alt="AWS Lightsail" />
@@ -71,6 +73,9 @@
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
 <img src="https://img.shields.io/badge/OpenAI-API-412991?style=flat-square" alt="OpenAI API" />
 <img src="https://img.shields.io/badge/LoRA-fine--tuning-6A1B9A?style=flat-square" alt="LoRA fine-tuning" />
+<img src="https://img.shields.io/badge/RAG-retrieval-0B3D91?style=flat-square" alt="RAG" />
+<img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white" alt="Qdrant" />
+<img src="https://img.shields.io/badge/CUDA-RTX%203060-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA CUDA on an RTX 3060" />
 <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white" alt="Google Colab" />
 
 **📊 Data**<br/>
@@ -118,30 +123,43 @@
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://github.com/sanchezSanjar/K-Visa-Law-Assistant"><img src="https://raw.githubusercontent.com/sanchezSanjar/K-Visa-Law-Assistant/master/docs/chat.png" alt="K-Visa Law Assistant" /></a>
+      <h3><a href="https://github.com/sanchezSanjar/K-Visa-Law-Assistant">⚖️ K-Visa Law Assistant</a></h3>
+      <p>Ask about Korean visa and immigration law in Korean or English; every answer cites the exact law article. RAG over 9 official laws, 18 visa tables and a Ministry of Justice guide, fully offline on an RTX 3060.</p>
+      <p><b>Result:</b> right article found for 95% of test questions; practical guide questions 13% → 93%<br/><sub>bge-m3 · Qdrant · reranker · Qwen3-4B (4-bit) · FastAPI</sub></p>
+    </td>
+    <td width="50%" valign="top">
       <a href="https://github.com/sanchezSanjar/HealthyLifeStyle-ChatBot"><img src="https://raw.githubusercontent.com/sanchezSanjar/HealthyLifeStyle-ChatBot/master/docs/chat.png" alt="HealthyCoach" /></a>
       <h3><a href="https://github.com/sanchezSanjar/HealthyLifeStyle-ChatBot">💬 HealthyLifeStyle ChatBot</a></h3>
-      <p>Offline healthy-lifestyle coach. Built my own 913-example health dataset and fine-tuned TinyLlama with LoRA.</p>
+      <p>Offline healthy-lifestyle coach. Built my own 913-example health dataset and fine-tuned TinyLlama with LoRA on an RTX 3060 (11 minutes).</p>
       <p><b>Result:</b> held-out perplexity 3.00 → 2.75<br/><sub>PyTorch · PEFT/LoRA · Transformers · Tkinter</sub></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/sanchezSanjar/MoodCafe"><img src="https://raw.githubusercontent.com/sanchezSanjar/MoodCafe/master/docs/kiosk-coupon.png" alt="Mood Cafe" /></a>
       <h3><a href="https://github.com/sanchezSanjar/MoodCafe">😊 Mood Cafe</a></h3>
       <p>Coffee-shop kiosk: smile at the camera and get a discount coupon. Face detection with OpenCV, expression recognition with a Vision Transformer.</p>
       <p><b>Result:</b> smile detection 90.8% on 3,589 test faces<br/><sub>OpenCV (YuNet) · ViT · PyTorch · Tkinter</sub></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/sanchezSanjar/smart-food-analysis"><img src="https://raw.githubusercontent.com/sanchezSanjar/smart-food-analysis/main/docs/analyze.jpg" alt="Smart Food Analysis" /></a>
       <h3><a href="https://github.com/sanchezSanjar/smart-food-analysis">🥗 Smart Food Analysis</a></h3>
       <p>Photo of a meal → dish, USDA nutrition and an A–E health grade (Nutri-Score), with healthier swaps and a daily meal diary.</p>
       <p><b>Result:</b> 92% top-1 dish recognition on 200 test photos<br/><sub>Vision Transformer · pandas · Streamlit</sub></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/sanchezSanjar/Weather_Forecast_Daegu"><img src="https://raw.githubusercontent.com/sanchezSanjar/Weather_Forecast_Daegu/master/docs/forecast.jpg" alt="Weather Forecast Daegu" /></a>
       <h3><a href="https://github.com/sanchezSanjar/Weather_Forecast_Daegu">🌤️ Weather Forecast Daegu</a></h3>
       <p>26 years of Daegu weather: heatwave analysis and 7-day forecasts with ridge and logistic regression written from scratch in NumPy.</p>
       <p><b>Result:</b> heatwave days 10 → 35 per year; forecasts beat baselines<br/><sub>pandas · NumPy · Streamlit</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🖥️ Built and run locally</h3>
+      <p>All AI projects run on my own laptop with an <b>NVIDIA RTX 3060 (6 GB)</b>: LoRA fine-tuning, RAG search and 4-bit LLM answers, vision models and the dashboards. No paid APIs, and each project ships with a Windows <code>.exe</code> launcher.</p>
+      <p><img src="https://img.shields.io/badge/CUDA-RTX%203060%20Laptop-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="RTX 3060" /> <img src="https://img.shields.io/badge/Offline-no%20API%20keys-1d4e89?style=flat-square" alt="Offline" /></p>
     </td>
   </tr>
 </table>
