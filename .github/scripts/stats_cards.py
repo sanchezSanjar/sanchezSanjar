@@ -77,8 +77,9 @@ def stats_card(user: str, data: dict) -> str:
     rows = [("Total stars", data["stars"])]
     if data["activity"]:
         rows += [("Contributions (last year)", data["activity"]["contributions"]),
-                 ("Commits (last year)", data["activity"]["commits"]),
-                 ("Pull requests", data["activity"]["prs"])]
+                 ("Commits (last year)", data["activity"]["commits"])]
+        if data["activity"]["prs"]:  # solo projects are committed directly, so 0 is not shown
+            rows.append(("Pull requests", data["activity"]["prs"]))
     rows += [("Public repositories", data["public_repos"]), ("Followers", data["followers"])]
     body = ""
     for i, (label, value) in enumerate(rows):
