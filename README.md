@@ -1,7 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1d4e89,100:3a86c8&height=190&section=header&text=Sanjar%20(Sanchez)&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Full-stack%20AI%20Engineer%20%C2%B7%20South%20Korea&descSize=18&descAlignY=58" width="100%" alt="Sanjar (Sanchez), full-stack AI engineer" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=3A86C8&center=true&vCenter=true&width=640&lines=Full-stack+developer+%C2%B7+NestJS+%C2%B7+GraphQL+%C2%B7+Next.js;2+live+products%3A+carzip.kr+and+detailstock.kr;Building+AI+apps+with+PyTorch%2C+OpenCV+and+pandas;Fine-tuning+LLMs+and+training+models+on+my+own+GPU" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=3A86C8&center=true&vCenter=true&width=640&lines=Full-stack+developer+%C2%B7+NestJS+%C2%B7+GraphQL+%C2%B7+Next.js;2+live+products%3A+carzip.kr+and+detailstock.kr;Building+AI+apps+with+PyTorch%2C+OpenCV+and+pandas;Fine-tuning+LLMs+and+building+computer+vision+apps" alt="Typing animation" />
 </p>
 
 <p align="center">
@@ -15,14 +15,14 @@
 - 📍 Full-stack AI engineer based in **South Korea**
 - 🚀 Shipped **2 live products**: a used-car marketplace and a car-detailing online shop
 - 🛠️ Building end to end: GraphQL API, database, web and mobile frontend, Docker deploy
-- 🤖 Building **AI apps** on my own GPU: LLM fine-tuning, computer vision, forecasting
+- 🤖 Building **AI apps**: LLM fine-tuning, computer vision, forecasting
 - 📏 Every AI project reports **real, measured results** and its limitations
 
 ```diff
 @@  Right now  @@
 + Running carzip.kr: NestJS · GraphQL · Next.js
 + Running detailstock.kr: Express · React
-+ Training AI models on my own RTX 3060
++ Building AI apps: LLMs, vision, forecasting
 
 @@  Shipped  @@
 + CarZip: used-car marketplace, 4 languages
@@ -36,7 +36,7 @@
 ## 🧰 Languages and tools
 
 **🎨 Frontend**<br/>
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,materialui,sass,css,html,vite&theme=dark" alt="TypeScript, JavaScript, React, Next.js, Redux, MUI, Sass, CSS, HTML, Vite" /><br/>
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,materialui,bootstrap,sass,css,html,vite&theme=dark" alt="TypeScript, JavaScript, React, Next.js, Redux, MUI, Bootstrap, Sass, CSS, HTML, Vite" /><br/>
 <img src="https://img.shields.io/badge/React%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="React Query" />
 <img src="https://img.shields.io/badge/Apollo%20Client-311C87?style=flat-square&logo=apollographql&logoColor=white" alt="Apollo Client" />
 <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white" alt="Axios" />
@@ -45,7 +45,7 @@
 <img src="https://img.shields.io/badge/Mapbox-000000?style=flat-square&logo=mapbox&logoColor=white" alt="Mapbox" />
 
 **⚙️ Backend**<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,py,fastapi,graphql,mongodb&theme=dark" alt="Node.js, NestJS, Express, Python, FastAPI, GraphQL, MongoDB" /><br/>
+<img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,py,django,flask,fastapi,graphql,mongodb&theme=dark" alt="Node.js, NestJS, Express, Python, Django, Flask, FastAPI, GraphQL, MongoDB" /><br/>
 <img src="https://img.shields.io/badge/Mongoose-880000?style=flat-square&logo=mongoose&logoColor=white" alt="Mongoose" />
 <img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.IO" />
 <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" />
@@ -54,7 +54,7 @@
 <img src="https://img.shields.io/badge/Multer-uploads-555555?style=flat-square" alt="Multer" />
 
 **☁️ DevOps and cloud**<br/>
-<img src="https://skillicons.dev/icons?i=linux,ubuntu,docker,nginx,aws,vercel,githubactions,git,github&theme=dark" alt="Linux, Ubuntu, Docker, Nginx, AWS, Vercel, GitHub Actions, Git, GitHub" /><br/>
+<img src="https://skillicons.dev/icons?i=linux,ubuntu,bash,docker,kubernetes,nginx,apache,grafana,aws,vercel,githubactions,git,github&theme=dark" alt="Linux, Ubuntu, Bash, Docker, Kubernetes, Nginx, Apache, Grafana, AWS, Vercel, GitHub Actions, Git, GitHub" /><br/>
 <img src="https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white" alt="PM2" />
 <img src="https://img.shields.io/badge/AWS-Lightsail-FF9900?style=flat-square" alt="AWS Lightsail" />
 <img src="https://img.shields.io/badge/VPS-deployment-555555?style=flat-square&logo=linux&logoColor=white" alt="VPS deployment" />
@@ -66,6 +66,7 @@
 <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" alt="Keras" />
 <img src="https://img.shields.io/badge/Hugging%20Face-Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
 <img src="https://img.shields.io/badge/Llama-Meta%20AI-0467DF?style=flat-square&logo=meta&logoColor=white" alt="Llama" />
+<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
 <img src="https://img.shields.io/badge/OpenAI-API-412991?style=flat-square" alt="OpenAI API" />
 <img src="https://img.shields.io/badge/LoRA-fine--tuning-6A1B9A?style=flat-square" alt="LoRA fine-tuning" />
@@ -118,13 +119,13 @@
     <td width="50%" valign="top">
       <a href="https://github.com/sanchezSanjar/HealthyLifeStyle-ChatBot"><img src="https://raw.githubusercontent.com/sanchezSanjar/HealthyLifeStyle-ChatBot/master/docs/chat.png" alt="HealthyCoach" /></a>
       <h3><a href="https://github.com/sanchezSanjar/HealthyLifeStyle-ChatBot">💬 HealthyLifeStyle ChatBot</a></h3>
-      <p>Offline healthy-lifestyle coach. Built my own 913-example health dataset and fine-tuned TinyLlama with LoRA on my GPU in 11 minutes.</p>
+      <p>Offline healthy-lifestyle coach. Built my own 913-example health dataset and fine-tuned TinyLlama with LoRA.</p>
       <p><b>Result:</b> held-out perplexity 3.00 → 2.75<br/><sub>PyTorch · PEFT/LoRA · Transformers · Tkinter</sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/sanchezSanjar/MoodCafe"><img src="https://raw.githubusercontent.com/sanchezSanjar/MoodCafe/master/docs/kiosk-coupon.png" alt="Mood Cafe" /></a>
       <h3><a href="https://github.com/sanchezSanjar/MoodCafe">😊 Mood Cafe</a></h3>
-      <p>Coffee-shop kiosk: smile at the camera and get a discount coupon. Face detection with OpenCV, expression recognition on the GPU.</p>
+      <p>Coffee-shop kiosk: smile at the camera and get a discount coupon. Face detection with OpenCV, expression recognition with a Vision Transformer.</p>
       <p><b>Result:</b> smile detection 90.8% on 3,589 test faces<br/><sub>OpenCV (YuNet) · ViT · PyTorch · Tkinter</sub></p>
     </td>
   </tr>
@@ -152,6 +153,12 @@
 | [Wooa Carwash](https://github.com/sanchezSanjar/wooa-carwash) | Car wash booking platform with a mobile app | NestJS · MongoDB · React Native (Expo) |
 | [computer_vision](https://github.com/sanchezSanjar/computer_vision) | OpenCV, PyTorch and a food menu classifier (MobileNetV2, 89.5%) | OpenCV · PyTorch |
 | [zoo](https://github.com/sanchezSanjar/zoo) | REST API server | NestJS |
+
+## 📈 GitHub activity
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=sanchezSanjar&theme=tokyonight&hide_border=true&background=0D1117&ring=3A86C8&fire=F4A259&currStreakLabel=3A86C8" alt="GitHub streak" />
+</p>
 
 <p align="center">
   <picture>
