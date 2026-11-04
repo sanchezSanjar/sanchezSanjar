@@ -125,54 +125,50 @@
 
 ## 📱 CarZip Mobile app
 
+The <a href="https://www.carzip.kr">CarZip</a> marketplace as a native app for iOS and Android, on the same NestJS + GraphQL backend as the website. Built with Expo in TypeScript.
+
 <table>
   <tr>
-    <td valign="top">
-      <p>The <a href="https://www.carzip.kr">CarZip</a> marketplace as a native app for iOS and Android, on the same NestJS + GraphQL backend as the website. Built with Expo in TypeScript.</p>
-      <table>
-        <tr>
-          <td width="50%" valign="top">
-            <b>🚗 Cars</b><br/>
-            Search, brand chips and filters (price, body type, fuel, sort)<br/>
-            Car page with swipeable photos, likes and call / KakaoTalk buttons<br/>
-            Test-drive booking: pick a day and time, message the dealer
-          </td>
-          <td width="50%" valign="top">
-            <b>💬 Chat</b><br/>
-            Live public chat room over WebSocket, auto-reconnect<br/>
-            Private messages with dealers, read receipts ✓✓ and unread badge<br/>
-            Photos from camera or gallery, voice messages up to 2 minutes
-          </td>
-        </tr>
-        <tr>
-          <td width="50%" valign="top">
-            <b>🔔 Push and login</b><br/>
-            Push notifications for messages, tap to open the right screen<br/>
-            Secure login: 15-minute access token, rotating refresh token in the Keychain / Keystore
-          </td>
-          <td width="50%" valign="top">
-            <b>🎨 Look and languages</b><br/>
-            English, Korean, Russian and Uzbek<br/>
-            Light / dark mode, smooth animations and haptics<br/>
-            Yellow and black CarZip design
-          </td>
-        </tr>
-      </table>
-      <p>
-        <img src="https://img.shields.io/badge/React%20Native-0.88-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React Native" />
-        <img src="https://img.shields.io/badge/Expo-SDK%2058-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo SDK 58" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/Apollo%20Client-311C87?style=flat-square&logo=apollographql&logoColor=white" alt="Apollo Client" />
-        <img src="https://img.shields.io/badge/Expo%20Push-notifications-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo push notifications" />
-        <img src="https://img.shields.io/badge/i18next-4%20languages-26A69A?style=flat-square&logo=i18next&logoColor=white" alt="i18next" />
-      </p>
-      <p>
-        <a href="https://github.com/sanchezSanjar/CarZip_Mobile"><img src="https://img.shields.io/badge/Repo-CarZip__Mobile-181717?style=for-the-badge&logo=github" alt="CarZip_Mobile repo" /></a>
-        <img src="https://img.shields.io/badge/Platforms-iOS%20%C2%B7%20Android-1d4e89?style=for-the-badge&logo=android&logoColor=white" alt="iOS and Android" />
-      </p>
+    <td width="50%" valign="top">
+      <b>🚗 Cars</b><br/>
+      Search, brand chips and filters (price, body type, fuel, sort)<br/>
+      Car page with swipeable photos, likes and call / KakaoTalk buttons<br/>
+      Test-drive booking: pick a day and time, message the dealer
+    </td>
+    <td width="50%" valign="top">
+      <b>💬 Chat</b><br/>
+      Live public chat room over WebSocket, auto-reconnect<br/>
+      Private messages with dealers, read receipts ✓✓ and unread badge<br/>
+      Photos from camera or gallery, voice messages up to 2 minutes
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b>🔔 Push and login</b><br/>
+      Push notifications for messages, tap to open the right screen<br/>
+      Secure login: 15-minute access token, rotating refresh token in the Keychain / Keystore
+    </td>
+    <td width="50%" valign="top">
+      <b>🎨 Look and languages</b><br/>
+      English, Korean, Russian and Uzbek<br/>
+      Light / dark mode, smooth animations and haptics<br/>
+      Yellow and black CarZip design
     </td>
   </tr>
 </table>
+
+<p>
+  <img src="https://img.shields.io/badge/React%20Native-0.88-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React Native" />
+  <img src="https://img.shields.io/badge/Expo-SDK%2058-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo SDK 58" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Apollo%20Client-311C87?style=flat-square&logo=apollographql&logoColor=white" alt="Apollo Client" />
+  <img src="https://img.shields.io/badge/Expo%20Push-notifications-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo push notifications" />
+  <img src="https://img.shields.io/badge/i18next-4%20languages-26A69A?style=flat-square&logo=i18next&logoColor=white" alt="i18next" />
+</p>
+<p>
+  <a href="https://github.com/sanchezSanjar/CarZip_Mobile"><img src="https://img.shields.io/badge/Repo-CarZip__Mobile-181717?style=for-the-badge&logo=github" alt="CarZip_Mobile repo" /></a>
+  <img src="https://img.shields.io/badge/Platforms-iOS%20%C2%B7%20Android-1d4e89?style=for-the-badge&logo=android&logoColor=white" alt="iOS and Android" />
+</p>
 
 ## AI projects
 
