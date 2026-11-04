@@ -175,13 +175,13 @@ The <a href="https://www.carzip.kr">CarZip</a> marketplace as a native app for i
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/sanchezSanjar/K-Visa-Law-Assistant"><img src="https://raw.githubusercontent.com/sanchezSanjar/K-Visa-Law-Assistant/master/docs/chat.png" alt="K-Visa Law Assistant" /></a>
+      <a href="https://github.com/sanchezSanjar/K-Visa-Law-Assistant"><img src="images/kvisa-chat.png" alt="K-Visa Law Assistant" /></a>
       <h3><a href="https://github.com/sanchezSanjar/K-Visa-Law-Assistant">⚖️ K-Visa Law Assistant</a></h3>
       <p>Ask about Korean visa and immigration law in Korean or English; every answer cites the exact law article. RAG over 9 official laws, 18 visa tables, a Ministry of Justice guide and the <b>2026 HiKorea visa and stay manuals</b> (1,335 pages), fully offline on an RTX 3060.</p>
       <p><b>Result:</b> right article found for 95% of law questions; answers cite the right source for 94% of law and 93% of practical guide questions, in 13–17 s<br/><sub>bge-m3 · Qdrant · reranker · Qwen3-4B (4-bit) · FastAPI</sub></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/sanchezSanjar/HealthyLifeStyle-ChatBot"><img src="https://raw.githubusercontent.com/sanchezSanjar/HealthyLifeStyle-ChatBot/master/docs/chat.png" alt="HealthyCoach" /></a>
+      <a href="https://github.com/sanchezSanjar/HealthyLifeStyle-ChatBot"><img src="images/healthycoach-chat.png" alt="HealthyCoach" /></a>
       <h3><a href="https://github.com/sanchezSanjar/HealthyLifeStyle-ChatBot">💬 HealthyLifeStyle ChatBot</a></h3>
       <p>Offline healthy-lifestyle coach. Built my own 913-example health dataset and fine-tuned TinyLlama with LoRA on an RTX 3060 (11 minutes).</p>
       <p><b>Result:</b> held-out perplexity 3.00 → 2.75<br/><sub>PyTorch · PEFT/LoRA · Transformers · Tkinter</sub></p>
@@ -189,13 +189,13 @@ The <a href="https://www.carzip.kr">CarZip</a> marketplace as a native app for i
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/sanchezSanjar/MoodCafe"><img src="https://raw.githubusercontent.com/sanchezSanjar/MoodCafe/master/docs/kiosk-coupon.png" alt="Mood Cafe" /></a>
+      <a href="https://github.com/sanchezSanjar/MoodCafe"><img src="images/moodcafe-kiosk.png" alt="Mood Cafe" /></a>
       <h3><a href="https://github.com/sanchezSanjar/MoodCafe">😊 Mood Cafe</a></h3>
       <p>Coffee-shop kiosk: smile at the camera and get a discount coupon. Face detection with OpenCV, expression recognition with a Vision Transformer.</p>
       <p><b>Result:</b> smile detection 90.8% on 3,589 test faces<br/><sub>OpenCV (YuNet) · ViT · PyTorch · Tkinter</sub></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/sanchezSanjar/smart-food-analysis"><img src="https://raw.githubusercontent.com/sanchezSanjar/smart-food-analysis/main/docs/analyze.jpg" alt="Smart Food Analysis" /></a>
+      <a href="https://github.com/sanchezSanjar/smart-food-analysis"><img src="images/smartfood-analyze.jpg" alt="Smart Food Analysis" /></a>
       <h3><a href="https://github.com/sanchezSanjar/smart-food-analysis">🥗 Smart Food Analysis</a></h3>
       <p>Photo of a meal → dish, USDA nutrition and an A–E health grade (Nutri-Score), with healthier swaps and a daily meal diary.</p>
       <p><b>Result:</b> 92% top-1 dish recognition on 200 test photos<br/><sub>Vision Transformer · pandas · Streamlit</sub></p>
