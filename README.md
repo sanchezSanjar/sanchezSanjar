@@ -1,7 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1d4e89,100:3a86c8&height=190&section=header&text=Sanchez%20(Sanjar)&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Full-stack%20AI%20Engineer%20%C2%B7%20South%20Korea&descSize=18&descAlignY=58" width="100%" alt="Sanchez (Sanjar), full-stack AI engineer" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=3A86C8&center=true&vCenter=true&width=640&lines=Full-stack+developer+%C2%B7+NestJS+%C2%B7+GraphQL+%C2%B7+Next.js;2+live+products%3A+carzip.kr+and+detailstock.kr;Building+AI+apps+with+PyTorch%2C+OpenCV+and+pandas;RAG+and+fine-tuned+LLMs+on+an+RTX+3060+GPU" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=3A86C8&center=true&vCenter=true&width=640&lines=Full-stack+developer+%C2%B7+NestJS+%C2%B7+GraphQL+%C2%B7+Next.js;2+live+products%3A+carzip.kr+and+detailstock.kr;CarZip+mobile+app+in+React+Native+(Expo);Building+AI+apps+with+PyTorch%2C+OpenCV+and+pandas;RAG+and+fine-tuned+LLMs+on+an+RTX+3060+GPU" alt="Typing animation" />
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 ## 👋 About me
 
 - 📍 Full-stack AI engineer based in **South Korea**
-- 🚀 Shipped **2 live products**: a used-car marketplace and a car-detailing online shop
+- 🚀 Shipped **2 live products**: a used-car marketplace (web + mobile app) and a car-detailing online shop
 - 🛠️ Building end to end: GraphQL API, database, web and mobile frontend, Docker deploy
 - 🤖 Building **AI apps**: RAG, LLM fine-tuning, computer vision, forecasting
 - 🖥️ Fine-tuning and running models locally on an **NVIDIA RTX 3060** laptop GPU (6 GB)
@@ -22,14 +22,17 @@
 ```diff
 @@  Right now  @@
 + Running carzip.kr: NestJS · GraphQL · Next.js
++ Building CarZip Mobile: Expo · chat · push
 + Running detailstock.kr: Express · React
 + Building AI apps: RAG, LLMs, vision
 
 @@  Shipped  @@
 + CarZip: used-car marketplace, 4 languages
++ CarZip Mobile: photo + voice chat, push alerts
 + DetailStock: car-detailing e-commerce
-+ K-Visa Law Assistant: RAG with cited answers
++ K-Visa Law Assistant: RAG, 2026 HiKorea manuals
 + HealthyLifeStyle ChatBot: own LoRA fine-tune
++ JaydariGPT: TinyLlama LoRA, offline chat app
 + Mood Cafe: smile-for-a-discount kiosk, 90.8%
 + Smart Food: meal photo -> A-E health grade
 + Weather Daegu: NumPy forecasts, heatwaves x3.4
@@ -97,12 +100,14 @@
   <tr>
     <td width="50%" valign="top">
       <h3>🚗 CarZip</h3>
-      <p>Used-car marketplace for Korea: verified dealers list cars, buyers search, compare, chat and book test drives. Web app in four languages.</p>
-      <p><b>Backend:</b> NestJS · GraphQL (Apollo) · MongoDB · Socket.io · Docker<br/><b>Frontend:</b> Next.js · MUI · i18n</p>
+      <p>Used-car marketplace for Korea: verified dealers list cars, buyers search, compare, chat and book test drives. Web and mobile app in four languages.</p>
+      <p><b>New:</b> mobile app with car search, test-drive booking, live chat, photo and voice messages, push notifications and dark mode</p>
+      <p><b>Backend:</b> NestJS · GraphQL (Apollo) · MongoDB · Socket.io · Expo Push · Docker<br/><b>Frontend:</b> Next.js · MUI · i18n<br/><b>Mobile:</b> React Native · Expo Router · Apollo Client</p>
       <p>
         <a href="https://www.carzip.kr"><img src="https://img.shields.io/badge/Live-carzip.kr-1d4e89?style=flat-square" alt="Live" /></a>
         <a href="https://github.com/sanchezSanjar/CarZip"><img src="https://img.shields.io/badge/Repo-Backend-181717?style=flat-square&logo=github" alt="Backend repo" /></a>
         <a href="https://github.com/sanchezSanjar/CarZip-next"><img src="https://img.shields.io/badge/Repo-Frontend-181717?style=flat-square&logo=github" alt="Frontend repo" /></a>
+        <a href="https://github.com/sanchezSanjar/CarZip_Mobile"><img src="https://img.shields.io/badge/Repo-Mobile-181717?style=flat-square&logo=github" alt="Mobile repo" /></a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -125,8 +130,8 @@
     <td width="50%" valign="top">
       <a href="https://github.com/sanchezSanjar/K-Visa-Law-Assistant"><img src="https://raw.githubusercontent.com/sanchezSanjar/K-Visa-Law-Assistant/master/docs/chat.png" alt="K-Visa Law Assistant" /></a>
       <h3><a href="https://github.com/sanchezSanjar/K-Visa-Law-Assistant">⚖️ K-Visa Law Assistant</a></h3>
-      <p>Ask about Korean visa and immigration law in Korean or English; every answer cites the exact law article. RAG over 9 official laws, 18 visa tables and a Ministry of Justice guide, fully offline on an RTX 3060.</p>
-      <p><b>Result:</b> right article found for 95% of test questions; practical guide questions 13% → 93%<br/><sub>bge-m3 · Qdrant · reranker · Qwen3-4B (4-bit) · FastAPI</sub></p>
+      <p>Ask about Korean visa and immigration law in Korean or English; every answer cites the exact law article. RAG over 9 official laws, 18 visa tables, a Ministry of Justice guide and the <b>2026 HiKorea visa and stay manuals</b> (1,335 pages), fully offline on an RTX 3060.</p>
+      <p><b>Result:</b> right article found for 95% of law questions; answers cite the right source for 94% of law and 93% of practical guide questions, in 13–17 s<br/><sub>bge-m3 · Qdrant · reranker · Qwen3-4B (4-bit) · FastAPI</sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/sanchezSanjar/HealthyLifeStyle-ChatBot"><img src="https://raw.githubusercontent.com/sanchezSanjar/HealthyLifeStyle-ChatBot/master/docs/chat.png" alt="HealthyCoach" /></a>
@@ -169,8 +174,11 @@
 | Project | What it is | Stack |
 |---|---|---|
 | [Petoria](https://github.com/sanchezSanjar/petoria) · [web](https://github.com/sanchezSanjar/petoria-next) | Pet shop platform with API and batch services | NestJS · GraphQL · MongoDB · Next.js · three.js |
+| [JaydariGPT](https://github.com/sanchezSanjar/jaydariGPT) | Team LLM: TinyLlama fine-tuned with LoRA (TRL), offline desktop chat and `.exe` launcher, GPU auto-setup | PyTorch · TRL · PEFT · Tkinter |
+| [jaydari_rag](https://github.com/sanchezSanjar/jaydari_rag) | RAG API service (in progress) | FastAPI · Pydantic · Qdrant · TinyLlama |
 | [Wooa Carwash](https://github.com/sanchezSanjar/wooa-carwash) | Car wash booking platform with a mobile app | NestJS · MongoDB · React Native (Expo) |
 | [computer_vision](https://github.com/sanchezSanjar/computer_vision) | OpenCV, PyTorch and a food menu classifier (MobileNetV2, 89.5%) | OpenCV · PyTorch |
+| [nestar-demo](https://github.com/sanchezSanjar/nestar-demo) | Property listing web demo, desktop and mobile layouts | Next.js · Apollo Client · Sass |
 | [zoo](https://github.com/sanchezSanjar/zoo) | REST API server | NestJS |
 
 ## 📈 GitHub activity
