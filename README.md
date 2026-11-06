@@ -99,6 +99,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://www.carzip.kr"><img src="images/carzip-home.jpg" alt="carzip.kr home page" /></a>
       <h3>🚗 CarZip</h3>
       <p>Used-car marketplace for Korea: verified dealers list cars, buyers search, compare, chat and book test drives. Web and mobile app in four languages.</p>
       <p><b>📱 New:</b> native mobile app for iOS and Android, <a href="#-carzip-mobile-app">see below</a></p>
@@ -111,6 +112,7 @@
       </p>
     </td>
     <td width="50%" valign="top">
+      <a href="https://detailstock.kr"><img src="images/detailstock-home.jpg" alt="detailstock.kr home page" /></a>
       <h3>🧴 DetailStock</h3>
       <p>Online shop for professional car-detailing products with a premium dark design, responsive from phone to desktop, plus an admin panel.</p>
       <p><b>Backend:</b> Express · MongoDB · EJS admin<br/><b>Frontend:</b> React · Redux Toolkit · MUI · Vite</p>
