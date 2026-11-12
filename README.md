@@ -44,7 +44,7 @@
 ## 🧰 Languages and tools
 
 **🎨 Frontend**<br/>
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,materialui,bootstrap,sass,css,html,vite&theme=dark" alt="TypeScript, JavaScript, React, Next.js, Redux, MUI, Bootstrap, Sass, CSS, HTML, Vite" /><br/>
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,materialui,bootstrap,sass,css,html,vite,flutter,dart&theme=dark" alt="TypeScript, JavaScript, React, Next.js, Redux, MUI, Bootstrap, Sass, CSS, HTML, Vite, Flutter, Dart" /><br/>
 <img src="https://img.shields.io/badge/React%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="React Query" />
 <img src="https://img.shields.io/badge/Apollo%20Client-311C87?style=flat-square&logo=apollographql&logoColor=white" alt="Apollo Client" />
 <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white" alt="Axios" />
@@ -53,7 +53,7 @@
 <img src="https://img.shields.io/badge/Mapbox-000000?style=flat-square&logo=mapbox&logoColor=white" alt="Mapbox" />
 
 **⚙️ Backend**<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,py,django,flask,fastapi,graphql,mongodb&theme=dark" alt="Node.js, NestJS, Express, Python, Django, Flask, FastAPI, GraphQL, MongoDB" /><br/>
+<img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,py,django,flask,fastapi,graphql,mongodb,redis&theme=dark" alt="Node.js, NestJS, Express, Python, Django, Flask, FastAPI, GraphQL, MongoDB, Redis" /><br/>
 <img src="https://img.shields.io/badge/Mongoose-880000?style=flat-square&logo=mongoose&logoColor=white" alt="Mongoose" />
 <img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.IO" />
 <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" />
