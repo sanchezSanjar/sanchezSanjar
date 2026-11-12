@@ -1,7 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1d4e89,100:3a86c8&height=190&section=header&text=Sanchez%20(Sanjar)&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Full-stack%20AI%20Engineer%20%C2%B7%20South%20Korea&descSize=18&descAlignY=58" width="100%" alt="Sanchez (Sanjar), full-stack AI engineer" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=3A86C8&center=true&vCenter=true&width=640&lines=Full-stack+developer+%C2%B7+NestJS+%C2%B7+GraphQL+%C2%B7+Next.js;2+live+products%3A+carzip.kr+and+detailstock.kr;CarZip+mobile+app+in+React+Native+(Expo);Building+AI+apps+with+PyTorch%2C+OpenCV+and+pandas;RAG+and+fine-tuned+LLMs+on+an+RTX+3060+GPU" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=3A86C8&center=true&vCenter=true&width=640&lines=Full-stack+developer+%C2%B7+NestJS+%C2%B7+GraphQL+%C2%B7+Next.js;2+live+products%3A+carzip.kr+and+detailstock.kr;CarZip+mobile+app+in+React+Native+(Expo);Wooa+Carwash%3A+subscription+car+wash+on+iOS%2C+Android+and+web;Building+AI+apps+with+PyTorch%2C+OpenCV+and+pandas;RAG+and+fine-tuned+LLMs+on+an+RTX+3060+GPU" alt="Typing animation" />
 </p>
 
 <p align="center">
