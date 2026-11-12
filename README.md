@@ -103,7 +103,7 @@
       <h3>🚗 CarZip</h3>
       <p>Used-car marketplace for Korea: verified dealers list cars, buyers search, compare, chat and book test drives. Web and mobile app in four languages.</p>
       <p><b>📱 New:</b> native mobile app for iOS and Android, <a href="#-carzip-mobile-app">see below</a></p>
-      <p><b>Backend:</b> NestJS · GraphQL (Apollo) · MongoDB · Socket.io · Expo Push · Docker<br/><b>Frontend:</b> Next.js · MUI · i18n<br/><b>Mobile:</b> React Native · Expo Router · Apollo Client</p>
+      <p><b>Backend:</b> NestJS · GraphQL (Apollo) · MongoDB · Redis · Socket.io · Expo Push · Docker<br/><b>Frontend:</b> Next.js · MUI · i18n<br/><b>Mobile:</b> React Native · Expo Router · Apollo Client<br/><b>Security:</b> login and SMS limits counted atomically in Redis, Helmet, tests with Vitest</p>
       <p>
         <a href="https://www.carzip.kr"><img src="https://img.shields.io/badge/Live-carzip.kr-1d4e89?style=flat-square" alt="Live" /></a>
         <a href="https://github.com/sanchezSanjar/CarZip"><img src="https://img.shields.io/badge/Repo-Backend-181717?style=flat-square&logo=github" alt="Backend repo" /></a>
@@ -115,7 +115,7 @@
       <a href="https://detailstock.kr"><img src="images/detailstock-home.jpg" alt="detailstock.kr home page" /></a>
       <h3>🧴 DetailStock</h3>
       <p>Online shop for professional car-detailing products with a premium dark design, responsive from phone to desktop, plus an admin panel.</p>
-      <p><b>Backend:</b> Express · MongoDB · EJS admin<br/><b>Frontend:</b> React · Redux Toolkit · MUI · Vite</p>
+      <p><b>Backend:</b> Express · MongoDB · EJS admin<br/><b>Frontend:</b> React · Redux Toolkit · MUI · Vite<br/><b>Security:</b> login and signup limits, Helmet headers, SameSite and Secure cookies</p>
       <p>
         <a href="https://detailstock.kr"><img src="https://img.shields.io/badge/Live-detailstock.kr-111111?style=flat-square" alt="Live" /></a>
         <a href="https://github.com/sanchezSanjar/detailStock"><img src="https://img.shields.io/badge/Repo-Backend-181717?style=flat-square&logo=github" alt="Backend repo" /></a>
