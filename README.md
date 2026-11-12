@@ -274,6 +274,7 @@ Subscription car wash for apartment complexes: washers come to the residents' pa
 | [Petoria](https://github.com/sanchezSanjar/petoria) · [web](https://github.com/sanchezSanjar/petoria-next) | Pet shop platform with API and batch services | NestJS · GraphQL · MongoDB · Next.js · three.js |
 | [JaydariGPT](https://github.com/sanchezSanjar/jaydariGPT) | Team LLM: TinyLlama fine-tuned with LoRA (TRL), offline desktop chat and `.exe` launcher, GPU auto-setup | PyTorch · TRL · PEFT · Tkinter |
 | [jaydari_rag](https://github.com/sanchezSanjar/jaydari_rag) | RAG API service (in progress) | FastAPI · Pydantic · Qdrant · TinyLlama |
+| [Carwash Stamp](https://github.com/sanchezSanjar/Carwash-Stamp) | Ad-free, offline timestamp camera for car wash photos: stars, banner with time and logo, date and footer | Flutter · Dart |
 | [computer_vision](https://github.com/sanchezSanjar/computer_vision) | OpenCV, PyTorch and a food menu classifier (MobileNetV2, 89.5%) | OpenCV · PyTorch |
 | [nestar-demo](https://github.com/sanchezSanjar/nestar-demo) | Property listing web demo, desktop and mobile layouts | Next.js · Apollo Client · Sass |
 | [zoo](https://github.com/sanchezSanjar/zoo) | REST API server | NestJS |
