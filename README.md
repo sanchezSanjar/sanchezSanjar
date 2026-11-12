@@ -23,6 +23,7 @@
 
 - 📍 Full-stack AI engineer based in **South Korea**
 - 🚀 Shipped **2 live products**: a used-car marketplace (web + mobile app) and a car-detailing online shop
+- 🧽 Building **Wooa Carwash**: a subscription car wash app for iOS, Android and web, plus a Flutter camera app
 - 🛠️ Building end to end: GraphQL API, database, web and mobile frontend, Docker deploy
 - 🤖 Building **AI apps**: RAG, LLM fine-tuning, computer vision, forecasting
 - 🖥️ Fine-tuning and running models locally on an **NVIDIA RTX 3060** laptop GPU (6 GB)
