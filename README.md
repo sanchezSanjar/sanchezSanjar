@@ -295,8 +295,8 @@ Subscription car wash for apartment complexes: washers come to the residents' pa
 ## 📈 GitHub activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sanchezSanjar/sanchezSanjar/output/github-stats.svg" height="190" alt="GitHub stats" />
-  <img src="https://raw.githubusercontent.com/sanchezSanjar/sanchezSanjar/output/top-languages.svg" height="190" alt="Top languages" />
+  <img src="images/profile/github-stats.svg" height="190" alt="GitHub stats" />
+  <img src="images/profile/top-languages.svg" height="190" alt="Top languages" />
 </p>
 
 <p align="center">
@@ -305,8 +305,8 @@ Subscription car wash for apartment complexes: washers come to the residents' pa
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sanchezSanjar/sanchezSanjar/output/github-contribution-grid-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/sanchezSanjar/sanchezSanjar/output/github-contribution-grid-snake.svg" alt="Contribution snake" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="images/profile/github-contribution-grid-snake-dark.svg" />
+    <img src="images/profile/github-contribution-grid-snake.svg" alt="Contribution snake" width="100%" />
   </picture>
 </p>
 
