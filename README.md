@@ -11,6 +11,14 @@
   <img src="https://img.shields.io/badge/Location-South%20Korea-3a86c8?style=for-the-badge&logo=googlemaps&logoColor=white" alt="South Korea" />
 </p>
 
+## 🆕 Latest updates · November 2026
+
+- 🧽 **[Wooa Carwash (우아세차)](#-wooa-carwash-우아세차):** subscription car wash for apartment complexes on iOS, Android and web, with SMS signup, day sheets, Excel import, monthly bills and rain alerts
+- 📸 **[Carwash Stamp](https://github.com/sanchezSanjar/Carwash-Stamp):** new Flutter app, an ad-free offline timestamp camera for car wash photos
+- 📱 **[CarZip Mobile](#-carzip-mobile-app):** native app with live chat, photo and voice messages and push notifications
+- 🔒 **CarZip and DetailStock:** security hardening, with login and SMS limits counted in Redis, Helmet headers and safer cookies
+- ⚖️ **[K-Visa Law Assistant](https://github.com/sanchezSanjar/K-Visa-Law-Assistant):** now searches the 2026 HiKorea manuals (1,335 pages)
+
 ## 👋 About me
 
 - 📍 Full-stack AI engineer based in **South Korea**
