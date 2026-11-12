@@ -172,6 +172,55 @@ The <a href="https://www.carzip.kr">CarZip</a> marketplace as a native app for i
   <img src="https://img.shields.io/badge/Platforms-iOS%20%C2%B7%20Android-1d4e89?style=for-the-badge&logo=android&logoColor=white" alt="iOS and Android" />
 </p>
 
+## 🧽 Wooa Carwash (우아세차)
+
+Subscription car wash for apartment complexes: washers come to the residents' parking lot on fixed days and wash each car while it is parked at home. One codebase runs on iOS, Android and the web, for members, washers and admins.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>🚙 Members</b><br/>
+      SMS signup, phone login and password reset<br/>
+      Cars with plans of 2, 4 or 6 washes a month, wash days and extras<br/>
+      Before / after photos, star ratings, bills and updates
+    </td>
+    <td width="50%" valign="top">
+      <b>📋 Washers and admins</b><br/>
+      Day sheets: reorder cars, assign washers, move washes between days<br/>
+      Excel export and import with a preview of every change<br/>
+      Members, roles, payments, reviews, plans and prices
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b>⏰ Batch server</b><br/>
+      Monthly bills, payment and wash reminders by SMS<br/>
+      Weather forecasts from the Korea Meteorological Administration, rain alerts the evening before<br/>
+      End-of-day close-out of unrecorded washes
+    </td>
+    <td width="50%" valign="top">
+      <b>🔒 Security and languages</b><br/>
+      Rate limits, login lock, server-side logout, signed photo links<br/>
+      Unit and API tests on an in-memory MongoDB<br/>
+      Korean and English, saved per member
+    </td>
+  </tr>
+</table>
+
+<p>
+  <img src="https://img.shields.io/badge/NestJS-API%20%2B%20batch-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS API and batch" />
+  <img src="https://img.shields.io/badge/MongoDB-Mongoose-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/React%20Native-Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="React Native Expo" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Solapi-SMS-555555?style=flat-square" alt="Solapi SMS" />
+  <img src="https://img.shields.io/badge/ExcelJS-217346?style=flat-square" alt="ExcelJS" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx" />
+</p>
+<p>
+  <a href="https://github.com/sanchezSanjar/wooa-carwash/tree/develop"><img src="https://img.shields.io/badge/Repo-wooa--carwash-181717?style=for-the-badge&logo=github" alt="wooa-carwash repo" /></a>
+  <img src="https://img.shields.io/badge/Platforms-iOS%20%C2%B7%20Android%20%C2%B7%20Web-1d4e89?style=for-the-badge" alt="iOS, Android and web" />
+</p>
+
 ## AI projects
 
 <table>
@@ -225,7 +274,6 @@ The <a href="https://www.carzip.kr">CarZip</a> marketplace as a native app for i
 | [Petoria](https://github.com/sanchezSanjar/petoria) · [web](https://github.com/sanchezSanjar/petoria-next) | Pet shop platform with API and batch services | NestJS · GraphQL · MongoDB · Next.js · three.js |
 | [JaydariGPT](https://github.com/sanchezSanjar/jaydariGPT) | Team LLM: TinyLlama fine-tuned with LoRA (TRL), offline desktop chat and `.exe` launcher, GPU auto-setup | PyTorch · TRL · PEFT · Tkinter |
 | [jaydari_rag](https://github.com/sanchezSanjar/jaydari_rag) | RAG API service (in progress) | FastAPI · Pydantic · Qdrant · TinyLlama |
-| [Wooa Carwash](https://github.com/sanchezSanjar/wooa-carwash) | Car wash booking platform with a mobile app | NestJS · MongoDB · React Native (Expo) |
 | [computer_vision](https://github.com/sanchezSanjar/computer_vision) | OpenCV, PyTorch and a food menu classifier (MobileNetV2, 89.5%) | OpenCV · PyTorch |
 | [nestar-demo](https://github.com/sanchezSanjar/nestar-demo) | Property listing web demo, desktop and mobile layouts | Next.js · Apollo Client · Sass |
 | [zoo](https://github.com/sanchezSanjar/zoo) | REST API server | NestJS |
