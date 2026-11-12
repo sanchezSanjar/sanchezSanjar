@@ -24,12 +24,15 @@
 + Running carzip.kr: NestJS · GraphQL · Next.js
 + Building CarZip Mobile: Expo · chat · push
 + Running detailstock.kr: Express · React
++ Building Wooa Carwash: subscriptions · SMS · bills
 + Building AI apps: RAG, LLMs, vision
 
 @@  Shipped  @@
 + CarZip: used-car marketplace, 4 languages
 + CarZip Mobile: photo + voice chat, push alerts
 + DetailStock: car-detailing e-commerce
++ Wooa Carwash: iOS, Android and web, 2 languages
++ Carwash Stamp: Flutter timestamp camera
 + K-Visa Law Assistant: RAG, 2026 HiKorea manuals
 + HealthyLifeStyle ChatBot: own LoRA fine-tune
 + JaydariGPT: TinyLlama LoRA, offline chat app
