@@ -7,17 +7,18 @@
 <p align="center">
   <a href="https://www.carzip.kr"><img src="https://img.shields.io/badge/Live-carzip.kr-1d4e89?style=for-the-badge&logo=googlechrome&logoColor=white" alt="carzip.kr" /></a>
   <a href="https://detailstock.kr"><img src="https://img.shields.io/badge/Live-detailstock.kr-111111?style=for-the-badge&logo=googlechrome&logoColor=white" alt="detailstock.kr" /></a>
-  <a href="#-wooa-carwash-우아세차"><img src="https://img.shields.io/badge/New-Wooa%20Carwash-2E7D32?style=for-the-badge&logo=expo&logoColor=white" alt="New: Wooa Carwash" /></a>
+  <a href="#-projects"><img src="https://img.shields.io/badge/New-Wooa%20Carwash-2E7D32?style=for-the-badge&logo=expo&logoColor=white" alt="New: Wooa Carwash" /></a>
   <img src="https://img.shields.io/badge/Location-South%20Korea-3a86c8?style=for-the-badge&logo=googlemaps&logoColor=white" alt="South Korea" />
 </p>
 
 ## 🆕 Latest updates · November 2026
 
-- 🧽 **[Wooa Carwash (우아세차)](#-wooa-carwash-우아세차):** subscription car wash for apartment complexes on iOS, Android and web, with SMS signup, day sheets, Excel import, monthly bills and rain alerts
+- 🏭 **[PLC Monitoring (C#)](https://github.com/sanchezSanjar/plc-monitoring-csharp):** new WinForms app that reads a PLC over Modbus TCP, with live charts, alarms and SQL history
+- 🧽 **Wooa Carwash (우아세차):** subscription car wash for apartment complexes on iOS, Android and web, with SMS signup, day sheets, Excel import, monthly bills and rain alerts
 - 📸 **[Carwash Stamp](https://github.com/sanchezSanjar/Carwash-Stamp):** new Flutter app, an ad-free offline timestamp camera for car wash photos
-- 📱 **[CarZip Mobile](#-carzip-mobile-app):** native app with live chat, photo and voice messages and push notifications
+- 📱 **CarZip Mobile:** native app with live chat, photo and voice messages and push notifications
 - 🔒 **CarZip and DetailStock:** security hardening, with login and SMS limits counted in Redis, Helmet headers and safer cookies
-- ⚖️ **[K-Visa Law Assistant](https://github.com/sanchezSanjar/K-Visa-Law-Assistant):** now searches the 2026 HiKorea manuals (1,335 pages)
+- ⚖️ **K-Visa Law Assistant:** now searches the 2026 HiKorea manuals (1,335 pages)
 
 ## 👋 About me
 
@@ -107,207 +108,35 @@
 <img src="https://img.shields.io/badge/Streaming%20AI%20UI-0A66C2?style=flat-square" alt="Streaming AI UI" />
 <img src="https://img.shields.io/badge/Real--time%20AI%20pipelines-2E7D32?style=flat-square" alt="Real-time AI pipelines" />
 
-## Live products
+## 🚀 Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://www.carzip.kr"><img src="images/carzip-home.jpg" alt="carzip.kr home page" /></a>
-      <h3>🚗 CarZip</h3>
-      <p>Used-car marketplace for Korea: verified dealers list cars, buyers search, compare, chat and book test drives. Web and mobile app in four languages.</p>
-      <p><b>📱 New:</b> native mobile app for iOS and Android, <a href="#-carzip-mobile-app">see below</a></p>
-      <p><b>Backend:</b> NestJS · GraphQL (Apollo) · MongoDB · Redis · Socket.io · Expo Push · Docker<br/><b>Frontend:</b> Next.js · MUI · i18n<br/><b>Mobile:</b> React Native · Expo Router · Apollo Client<br/><b>Security:</b> login and SMS limits counted atomically in Redis, Helmet, tests with Vitest</p>
-      <p>
-        <a href="https://www.carzip.kr"><img src="https://img.shields.io/badge/Live-carzip.kr-1d4e89?style=flat-square" alt="Live" /></a>
-        <a href="https://github.com/sanchezSanjar/CarZip"><img src="https://img.shields.io/badge/Repo-Backend-181717?style=flat-square&logo=github" alt="Backend repo" /></a>
-        <a href="https://github.com/sanchezSanjar/CarZip-next"><img src="https://img.shields.io/badge/Repo-Frontend-181717?style=flat-square&logo=github" alt="Frontend repo" /></a>
-        <a href="https://github.com/sanchezSanjar/CarZip_Mobile"><img src="https://img.shields.io/badge/Repo-Mobile-181717?style=flat-square&logo=github" alt="Mobile repo" /></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://detailstock.kr"><img src="images/detailstock-home.jpg" alt="detailstock.kr home page" /></a>
-      <h3>🧴 DetailStock</h3>
-      <p>Online shop for professional car-detailing products with a premium dark design, responsive from phone to desktop, plus an admin panel.</p>
-      <p><b>Backend:</b> Express · MongoDB · EJS admin<br/><b>Frontend:</b> React · Redux Toolkit · MUI · Vite<br/><b>Security:</b> login and signup limits, Helmet headers, SameSite and Secure cookies</p>
-      <p>
-        <a href="https://detailstock.kr"><img src="https://img.shields.io/badge/Live-detailstock.kr-111111?style=flat-square" alt="Live" /></a>
-        <a href="https://github.com/sanchezSanjar/detailStock"><img src="https://img.shields.io/badge/Repo-Backend-181717?style=flat-square&logo=github" alt="Backend repo" /></a>
-        <a href="https://github.com/sanchezSanjar/detailStock-react"><img src="https://img.shields.io/badge/Repo-Frontend-181717?style=flat-square&logo=github" alt="Frontend repo" /></a>
-      </p>
-    </td>
-  </tr>
-</table>
+**Live products**
 
-## 📱 CarZip Mobile app
+- 🚗 **CarZip**: used-car marketplace for Korea, web and iOS/Android app in four languages · [carzip.kr](https://www.carzip.kr)
+- 🧴 **DetailStock**: online shop for professional car-detailing products, with an admin panel · [detailstock.kr](https://detailstock.kr)
 
-The <a href="https://www.carzip.kr">CarZip</a> marketplace as a native app for iOS and Android, on the same NestJS + GraphQL backend as the website. Built with Expo in TypeScript.
+**Apps**
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <b>🚗 Cars</b><br/>
-      Search, brand chips and filters (price, body type, fuel, sort)<br/>
-      Car page with swipeable photos, likes and call / KakaoTalk buttons<br/>
-      Test-drive booking: pick a day and time, message the dealer
-    </td>
-    <td width="50%" valign="top">
-      <b>💬 Chat</b><br/>
-      Live public chat room over WebSocket, auto-reconnect<br/>
-      Private messages with dealers, read receipts ✓✓ and unread badge<br/>
-      Photos from camera or gallery, voice messages up to 2 minutes
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <b>🔔 Push and login</b><br/>
-      Push notifications for messages, tap to open the right screen<br/>
-      Secure login: 15-minute access token, rotating refresh token in the Keychain / Keystore
-    </td>
-    <td width="50%" valign="top">
-      <b>🎨 Look and languages</b><br/>
-      English, Korean, Russian and Uzbek<br/>
-      Light / dark mode, smooth animations and haptics<br/>
-      Yellow and black CarZip design
-    </td>
-  </tr>
-</table>
+- 📱 **CarZip Mobile**: React Native (Expo) app with live chat, photo and voice messages and push notifications
+- 🧽 **Wooa Carwash (우아세차)**: subscription car wash for apartment complexes on iOS, Android and web
+- 📸 **[Carwash Stamp](https://github.com/sanchezSanjar/Carwash-Stamp)**: ad-free, offline timestamp camera for car wash photos (Flutter)
+- 🏭 **[PLC Monitoring (C#)](https://github.com/sanchezSanjar/plc-monitoring-csharp)**: real-time equipment monitoring over Modbus TCP, with alarms and SQL history (WinForms)
 
-<p>
-  <img src="https://img.shields.io/badge/React%20Native-0.88-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React Native" />
-  <img src="https://img.shields.io/badge/Expo-SDK%2058-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo SDK 58" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Apollo%20Client-311C87?style=flat-square&logo=apollographql&logoColor=white" alt="Apollo Client" />
-  <img src="https://img.shields.io/badge/Expo%20Push-notifications-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo push notifications" />
-  <img src="https://img.shields.io/badge/i18next-4%20languages-26A69A?style=flat-square&logo=i18next&logoColor=white" alt="i18next" />
-</p>
-<p>
-  <a href="https://github.com/sanchezSanjar/CarZip_Mobile"><img src="https://img.shields.io/badge/Repo-CarZip__Mobile-181717?style=for-the-badge&logo=github" alt="CarZip_Mobile repo" /></a>
-  <img src="https://img.shields.io/badge/Platforms-iOS%20%C2%B7%20Android-1d4e89?style=for-the-badge&logo=android&logoColor=white" alt="iOS and Android" />
-</p>
+**AI projects**
 
-## 🧽 Wooa Carwash (우아세차)
+- ⚖️ **K-Visa Law Assistant**: RAG over Korean visa and immigration law, every answer cites the article
+- 💬 **HealthyLifeStyle ChatBot**: offline health coach, TinyLlama fine-tuned with LoRA on my own dataset
+- 🤖 **[JaydariGPT](https://github.com/sanchezSanjar/jaydariGPT)**: team LLM, TinyLlama LoRA fine-tune with an offline desktop chat
+- 😊 **Mood Cafe**: kiosk that gives a discount coupon when you smile (OpenCV + Vision Transformer)
+- 🥗 **Smart Food Analysis**: meal photo → dish, nutrition and an A–E health grade
+- 🌤️ **Weather Forecast Daegu**: 26 years of weather data, heatwave analysis and 7-day forecasts in NumPy
 
-Subscription car wash for apartment complexes: washers come to the residents' parking lot on fixed days and wash each car while it is parked at home. One codebase runs on iOS, Android and the web, for members, washers and admins.
+**More**
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <b>🚙 Members</b><br/>
-      SMS signup, phone login and password reset<br/>
-      Cars with plans of 2, 4 or 6 washes a month, wash days and extras<br/>
-      Before / after photos, star ratings, bills and updates
-    </td>
-    <td width="50%" valign="top">
-      <b>📋 Washers and admins</b><br/>
-      Day sheets: reorder cars, assign washers, move washes between days<br/>
-      Excel export and import with a preview of every change<br/>
-      Members, roles, payments, reviews, plans and prices
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <b>⏰ Batch server</b><br/>
-      Monthly bills, payment and wash reminders by SMS<br/>
-      Weather forecasts from the Korea Meteorological Administration, rain alerts the evening before<br/>
-      End-of-day close-out of unrecorded washes
-    </td>
-    <td width="50%" valign="top">
-      <b>🔒 Security and languages</b><br/>
-      Rate limits, login lock, server-side logout, signed photo links<br/>
-      Unit and API tests on an in-memory MongoDB<br/>
-      Korean and English, saved per member
-    </td>
-  </tr>
-</table>
-
-<p>
-  <img src="https://img.shields.io/badge/NestJS-API%20%2B%20batch-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS API and batch" />
-  <img src="https://img.shields.io/badge/MongoDB-Mongoose-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/React%20Native-Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="React Native Expo" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Solapi-SMS-555555?style=flat-square" alt="Solapi SMS" />
-  <img src="https://img.shields.io/badge/ExcelJS-217346?style=flat-square" alt="ExcelJS" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx" />
-</p>
-<p>
-  <a href="https://github.com/sanchezSanjar/wooa-carwash/tree/develop"><img src="https://img.shields.io/badge/Repo-wooa--carwash-181717?style=for-the-badge&logo=github" alt="wooa-carwash repo" /></a>
-  <img src="https://img.shields.io/badge/Platforms-iOS%20%C2%B7%20Android%20%C2%B7%20Web-1d4e89?style=for-the-badge" alt="iOS, Android and web" />
-</p>
-
-## AI projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/sanchezSanjar/K-Visa-Law-Assistant"><img src="https://raw.githubusercontent.com/sanchezSanjar/K-Visa-Law-Assistant/master/docs/chat.png" alt="K-Visa Law Assistant" /></a>
-      <h3><a href="https://github.com/sanchezSanjar/K-Visa-Law-Assistant">⚖️ K-Visa Law Assistant</a></h3>
-      <p>Ask about Korean visa and immigration law in Korean or English; every answer cites the exact law article. RAG over 9 official laws, 18 visa tables, a Ministry of Justice guide and the <b>2026 HiKorea visa and stay manuals</b> (1,335 pages), fully offline on an RTX 3060.</p>
-      <p><b>Result:</b> right article found for 95% of law questions; answers cite the right source for 94% of law and 93% of practical guide questions, in 13–17 s<br/><sub>bge-m3 · Qdrant · reranker · Qwen3-4B (4-bit) · FastAPI</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/sanchezSanjar/HealthyLifeStyle-ChatBot"><img src="https://raw.githubusercontent.com/sanchezSanjar/HealthyLifeStyle-ChatBot/master/docs/chat.png" alt="HealthyCoach" /></a>
-      <h3><a href="https://github.com/sanchezSanjar/HealthyLifeStyle-ChatBot">💬 HealthyLifeStyle ChatBot</a></h3>
-      <p>Offline healthy-lifestyle coach. Built my own 913-example health dataset and fine-tuned TinyLlama with LoRA on an RTX 3060 (11 minutes).</p>
-      <p><b>Result:</b> held-out perplexity 3.00 → 2.75<br/><sub>PyTorch · PEFT/LoRA · Transformers · Tkinter</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/sanchezSanjar/MoodCafe"><img src="https://raw.githubusercontent.com/sanchezSanjar/MoodCafe/master/docs/kiosk-coupon.png" alt="Mood Cafe" /></a>
-      <h3><a href="https://github.com/sanchezSanjar/MoodCafe">😊 Mood Cafe</a></h3>
-      <p>Coffee-shop kiosk: smile at the camera and get a discount coupon. Face detection with OpenCV, expression recognition with a Vision Transformer.</p>
-      <p><b>Result:</b> smile detection 90.8% on 3,589 test faces<br/><sub>OpenCV (YuNet) · ViT · PyTorch · Tkinter</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/sanchezSanjar/smart-food-analysis"><img src="https://raw.githubusercontent.com/sanchezSanjar/smart-food-analysis/main/docs/analyze.jpg" alt="Smart Food Analysis" /></a>
-      <h3><a href="https://github.com/sanchezSanjar/smart-food-analysis">🥗 Smart Food Analysis</a></h3>
-      <p>Photo of a meal → dish, USDA nutrition and an A–E health grade (Nutri-Score), with healthier swaps and a daily meal diary.</p>
-      <p><b>Result:</b> 92% top-1 dish recognition on 200 test photos<br/><sub>Vision Transformer · pandas · Streamlit</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/sanchezSanjar/Weather_Forecast_Daegu"><img src="https://raw.githubusercontent.com/sanchezSanjar/Weather_Forecast_Daegu/master/docs/forecast.jpg" alt="Weather Forecast Daegu" /></a>
-      <h3><a href="https://github.com/sanchezSanjar/Weather_Forecast_Daegu">🌤️ Weather Forecast Daegu</a></h3>
-      <p>26 years of Daegu weather: heatwave analysis and 7-day forecasts with ridge and logistic regression written from scratch in NumPy.</p>
-      <p><b>Result:</b> heatwave days 10 → 35 per year; forecasts beat baselines<br/><sub>pandas · NumPy · Streamlit</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🖥️ Built and run locally</h3>
-      <p>All AI projects run on my own laptop with an <b>NVIDIA RTX 3060 (6 GB)</b>: LoRA fine-tuning, RAG search and 4-bit LLM answers, vision models and the dashboards. No paid APIs, and each project ships with a Windows <code>.exe</code> launcher.</p>
-      <p><img src="https://img.shields.io/badge/CUDA-RTX%203060%20Laptop-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="RTX 3060" /> <img src="https://img.shields.io/badge/Offline-no%20API%20keys-1d4e89?style=flat-square" alt="Offline" /></p>
-    </td>
-  </tr>
-</table>
-
-## More projects
-
-| Project | What it is | Stack |
-|---|---|---|
-| [Petoria](https://github.com/sanchezSanjar/petoria) · [web](https://github.com/sanchezSanjar/petoria-next) | Pet shop platform with API and batch services | NestJS · GraphQL · MongoDB · Next.js · three.js |
-| [JaydariGPT](https://github.com/sanchezSanjar/jaydariGPT) | Team LLM: TinyLlama fine-tuned with LoRA (TRL), offline desktop chat and `.exe` launcher, GPU auto-setup | PyTorch · TRL · PEFT · Tkinter |
-| [jaydari_rag](https://github.com/sanchezSanjar/jaydari_rag) | RAG API service (in progress) | FastAPI · Pydantic · Qdrant · TinyLlama |
-| [Carwash Stamp](https://github.com/sanchezSanjar/Carwash-Stamp) | Ad-free, offline timestamp camera for car wash photos: stars, banner with time and logo, date and footer | Flutter · Dart |
-| [computer_vision](https://github.com/sanchezSanjar/computer_vision) | OpenCV, PyTorch and a food menu classifier (MobileNetV2, 89.5%) | OpenCV · PyTorch |
-| [nestar-demo](https://github.com/sanchezSanjar/nestar-demo) | Property listing web demo, desktop and mobile layouts | Next.js · Apollo Client · Sass |
-| [zoo](https://github.com/sanchezSanjar/zoo) | REST API server | NestJS |
-
-## 📈 GitHub activity
-
-<p align="center">
-  <img src="images/profile/github-stats.svg" height="190" alt="GitHub stats" />
-  <img src="images/profile/top-languages.svg" height="190" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=sanchezSanjar&theme=tokyonight&hide_border=true&background=0D1117&ring=3A86C8&fire=F4A259&currStreakLabel=3A86C8" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="images/profile/github-contribution-grid-snake-dark.svg" />
-    <img src="images/profile/github-contribution-grid-snake.svg" alt="Contribution snake" width="100%" />
-  </picture>
-</p>
+- 🐾 **[Petoria](https://github.com/sanchezSanjar/petoria)** · [web](https://github.com/sanchezSanjar/petoria-next): pet shop platform (NestJS · GraphQL · Next.js)
+- 🏠 **[nestar-demo](https://github.com/sanchezSanjar/nestar-demo)**: property listing web demo
+- 🔎 **[jaydari_rag](https://github.com/sanchezSanjar/jaydari_rag)**: RAG API service (in progress)
+- 👁️ **[computer_vision](https://github.com/sanchezSanjar/computer_vision)**: OpenCV and PyTorch experiments
+- 🦁 **[zoo](https://github.com/sanchezSanjar/zoo)**: REST API server (NestJS)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a86c8,100:1d4e89&height=110&section=footer" width="100%" alt="" />
